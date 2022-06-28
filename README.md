@@ -7,13 +7,15 @@
 
 
 - [운영체제란 무엇인가](https://github.com/leegwae/operating-system/blob/main/Operating%20System%20Basics.md)
+- [인터럽트와 시스템 호출](https://github.com/leegwae/operating-system/blob/main/Interrupt%20and%20System%20Call.md)
 
 
 
 ## TODO
 
-- [ ] 인터럽트
-- [ ] 시스템 콜
+- [x] 인터럽트
+- [x] 시스템 콜
+- [ ] 프로세스와 스레드
 
 
 

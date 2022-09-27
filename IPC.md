@@ -12,7 +12,7 @@
 
 
 
-프로세스 동기화는 [다음](https://github.com/leegwae/operating-system/blob/main/Process%20Synchronization.md)을 참고한다.
+> 프로세스 동기화는 [다음](https://github.com/leegwae/operating-system/blob/main/Process%20Synchronization.md)을 참고한다.
 
 
 
@@ -27,7 +27,7 @@
 ## 참고
 
 - 운영체제 강의 필기
-- [OpeCSF-IPC 모델](https://w3.cs.jmu.edu/kirkpams/OpenCSF/Books/csf/html/IPCModels.html)
+- [OpenCSF-IPC 모델](https://w3.cs.jmu.edu/kirkpams/OpenCSF/Books/csf/html/IPCModels.html)
 - [GeeksforGeeks - IPC](https://www.geeksforgeeks.org/inter-process-communication-ipc/)
 - [제이온 - IPC](https://steady-coding.tistory.com/508)
 

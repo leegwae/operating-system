@@ -2,7 +2,9 @@
 
 내가 공부한 운영체제
 
-(2022/06/02~)
+(2022/06/02~2022/07/04)
+
+(2022/09/28~)
 
 
 
@@ -23,9 +25,9 @@
   - 공유 메모리 방식
   - 메시지 패싱 방식
 - [프로세스 동기화 문제(수정중)](https://github.com/leegwae/operating-system/blob/main/Process%20Synchronization.md)
-  - 경쟁 상태와 임계구역의 정의
-  - 임계구역 문제를 바람직하게 해결하는 세 가지 조건
-  - 상호 배제를 구현하는 세 가지 방법과 문제점
+  - 경쟁 상태와 임계구역
+  - 임계구역 문제를 해결하는 세 가지 조건
+  - 상호 배제 구현하기
   - 생산자-소비자 문제
 
 
@@ -41,7 +43,7 @@
 - [ ] IPC: 프로세스 간 데이터 교환을 목적으로 함
   - [x] 공유 메모리 - 동기화 문제
   - [x] 메세지 패싱
-  - [ ] 메시지 패싱 종류(파이프, 메시지 큐, 소켓)
+  - [ ] 메시지 패싱 종류(파이프, 네임드 파이프FIFO, 메시지 큐, 소켓)
   
 - [ ] 동기화 문제: 프로세스 간 데이터를 동기화, 보호를 목적으로 함
   - [x] 경쟁 상황
@@ -63,4 +65,5 @@
 - [Ready For Tech Interview](https://github.com/WooVictory/Ready-For-Tech-Interview)
 - [Tech Interview For Developers](https://github.com/gyoogle/tech-interview-for-developer)
 - [tech interview](https://github.com/WeareSoft/tech-interview)
+- [geeksforgeeks - operating system](https://www.geeksforgeeks.org/operating-systems/?ref=lbp)
 

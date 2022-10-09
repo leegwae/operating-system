@@ -31,11 +31,10 @@
   - 생산자-소비자 문제
 - [메모리 관리](https://github.com/leegwae/operating-system/blob/main/Memory%20Basics.md)
   - 메모리 계층 구조
-    - 메인 메모리
-    - 캐시 메모리
-
-  - 메모리 추상화: 주소 공간
-  - MMU와 메모리 관리
+  - 메인 메모리
+  - 캐시
+  - (TODO) 메모리 추상화: 주소 공간
+  - MMU로 메모리 관리하기
   - 멀티 프로그래밍에서 메모리 관리
 - [메모리 분할](https://github.com/leegwae/operating-system/blob/main/Memory%20Partitioning.md)
   - 단편화
@@ -43,8 +42,8 @@
 - [가상 메모리](https://github.com/leegwae/operating-system/blob/main/Virtual%20Memory.md)
   - 페이징
   - 페이지 폴트와 페이지 교체 알고리즘
-  - 세그멘테이션
-  - 세그멘테이션-페이징
+  - 세그먼테이션
+  - (TODO) 세그먼테이션-페이징
 
 
 

@@ -8,7 +8,7 @@
 
 ## 프로세스 주소 공간
 
-![process address space](https://user-images.githubusercontent.com/57662010/209113874-1fef1053-383d-4403-9005-d9e994d550ad.png)
+<img src="https://user-images.githubusercontent.com/57662010/209113874-1fef1053-383d-4403-9005-d9e994d550ad.png" alt="process address space" style="zoom: 67%;" />
 
 **주소 공간(process address space)**은 프로세스가 사용할 수 있는 주소의 범위를 정의한 것으로 텍스트 세그먼트(text segment), 데이터 세그먼트(data segment), 스택 세그먼트(stack segment)로 나뉜다.
 
@@ -24,7 +24,7 @@
 
 ### 문맥 교환
 
-![image](https://user-images.githubusercontent.com/57662010/209119490-2823a4e7-bcc2-4e91-b4dd-33fb9a41cbcb.png)
+<img src="https://user-images.githubusercontent.com/57662010/209119490-2823a4e7-bcc2-4e91-b4dd-33fb9a41cbcb.png" alt="image" style="zoom:67%;" />
 
 운영체제는 프로세스를 관리하기 위하여 각 프로세스를 실행하는데 필요한 정보를 담은 **PCB(process control block; 프로세스 제어 블록)**를 유지한다.
 
@@ -42,7 +42,7 @@ CPU-바운드 프로세스(computed-bound process)는 긴 CPU 버스트를 가�
 
 ### 프로세스 상태
 
-![Process-state](https://user-images.githubusercontent.com/57662010/209124816-fae17edf-882e-43e0-8dd9-a882840f4e62.jpg)
+<img src="https://user-images.githubusercontent.com/57662010/209124816-fae17edf-882e-43e0-8dd9-a882840f4e62.jpg" alt="Process-state" style="zoom:67%;" />
 
 - new: 프로세스를 생성 중이다.
 - ready: 실행 가능하며, 실행되기를 기다린다.

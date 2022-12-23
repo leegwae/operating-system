@@ -113,7 +113,7 @@ response ratio = (대기 시간 + 수행 시간) / (수행 시간)
 
 #### Round-Robin Scheduling
 
-**라운드 로빈 스케줄링(Round-Robin Scheduling)**에서는 프로세스는 동일한 할당 시간(time quantumn)만큼 번갈아가며 실행한다. 할당 시간을 모두 사용하면 프로세스는 ready 상태가 된다. 할당 시간을 크게 하면 뒤쪽 순서의 프로세스가 대기하는 시간이 늘어나며, 작게 하면 응답은 빠르지만 문맥 교환으로 인한 오버헤드가 증가한다.
+**라운드 로빈 스케줄링(Round-Robin Scheduling)**에서는 프로세스는 동일한 할당 시간(time quantum)만큼 번갈아가며 실행한다. 할당 시간을 모두 사용하면 프로세스는 ready 상태가 된다. 할당 시간을 크게 하면 뒤쪽 순서의 프로세스가 대기하는 시간이 늘어나며, 작게 하면 응답은 빠르지만 문맥 교환으로 인한 오버헤드가 증가한다.
 
 #### Multi Level Queue Scheduling
 

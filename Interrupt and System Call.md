@@ -70,6 +70,14 @@
 
 
 
+## 스터디
+
+### 인터럽트 서비스 루틴 실행 중 다른 인터럽트가 걸리면 어떻게 할까?
+
+인터럽트의 우선 순위에 따라서 다른 인터럽트를 수행할지 말지 결정한다. (TODO) Interrupt-driven I/O의 다중 인터럽트, 데이지 체인, 폴링
+
+
+
 ## 참고
 
 [chowisely - Interrupt & System Call](https://velog.io/@chowisely/Operating-Systems-Interrupt-System-Call)

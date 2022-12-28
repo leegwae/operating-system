@@ -317,7 +317,7 @@ void put_forks(i)
 
 void test(i)
 {
-    if (state[i] == JUNGRY && state[LEFT] != EATING && state[RIGHT] != EATING) {
+    if (state[i] == HUNGRY && state[LEFT] != EATING && state[RIGHT] != EATING) {
         state[i] = EATING;
         up(&s[i]);
     }

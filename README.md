@@ -6,44 +6,50 @@
 
 (2022/09/28~2022/10/10)
 
-(2022/12/21~)
+(2022/12/21~2022/01/08)
 
 
+
+## TOC
 
 - [운영체제란 무엇인가](https://github.com/leegwae/operating-system/blob/main/Operating%20System%20Basics.md)
-  - 소프트웨어로서의 운영체제
+  - 운영체제란 무엇인가
   - CPU의 이중 모드
+  - 커널과 쉘
 - [인터럽트와 시스템 호출](https://github.com/leegwae/operating-system/blob/main/Interrupt%20and%20System%20Call.md)
-  - 인터럽트의 정의
+  - 인터럽트란 무엇인가
   - 인터럽트의 종류
   - 인터럽트의 발생과 처리 과정
 - [프로세스와 스레드](https://github.com/leegwae/operating-system/blob/main/Process%20and%20Thread.md)
-  - 프로세스
-  - 멀티 프로그래밍
+  - 프로세스란 무엇인가
+  - 멀티 프로세스
   - 프로세스 스케줄링
+  - 스레드란 무엇인가
+  - 멀티 스레드
 - [프로세스 간 통신(IPC)](https://github.com/leegwae/operating-system/blob/main/IPC.md)
   - 공유 메모리 방식
   - 메시지 패싱 방식
-- [프로세스 동기화 문제(수정중)](https://github.com/leegwae/operating-system/blob/main/Process%20Synchronization.md)
+- [프로세스 동기화](https://github.com/leegwae/operating-system/blob/main/Process%20Synchronization.md)
   - 경쟁 상태와 임계구역
-  - 임계구역 문제를 해결하는 세 가지 조건
-  - 상호 배제 구현하기
-  - 생산자-소비자 문제
-- [메모리 관리](https://github.com/leegwae/operating-system/blob/main/Memory%20Basics.md)
-  - 메모리 계층 구조
-  - 메인 메모리
-  - 캐시
-  - (TODO) 메모리 추상화: 주소 공간
-  - MMU로 메모리 관리하기
-  - 멀티 프로그래밍에서 메모리 관리
-- [메모리 분할](https://github.com/leegwae/operating-system/blob/main/Memory%20Partitioning.md)
-  - 단편화
-  - 메모리 분할 방식
+  - 임계구역 문제를 해결하는 방법들
+  - 원자적 연산(세마포어/뮤텍스/모니터)
+- [데드락](https://github.com/leegwae/operating-system/blob/main/Deadlock.md)
+  - 데드락 발생 조건
+  - 데드락 처리하기(예방/회피/감지와 회복/무시)
+- [메모리 관리](https://github.com/leegwae/operating-system/blob/main/Memory%20Management.md)
+  - 메모리 계층 구조(메인 메모리, 캐시)
+  - MMU
+  - 메모리 단편화
+  - 메모리 할당 방식
+  - 멀티 프로그래밍 환경에서의 메모리 관리 기법(스와핑/가상 메모리)
 - [가상 메모리](https://github.com/leegwae/operating-system/blob/main/Virtual%20Memory.md)
-  - 페이징
+  - 가상 메모리란 무엇인가
+  - 요구 페이징
+  - 페이지 테이블과 동적 주소 변환
   - 페이지 폴트와 페이지 교체 알고리즘
-  - 세그먼테이션
-  - (TODO) 세그먼테이션-페이징
+  - 스레싱
+  - 요구 세그먼테이션
+  - 페이지드 세그먼테이션
 
 
 
@@ -51,21 +57,8 @@
 ## TODO
 
 - [ ] **스터디 내용으로 갱신하기**
-- [x] 인터럽트
-- [x] 시스템 콜
-- [x] 프로세스와 스레드
-- [ ] 스케줄링
-- [ ] IPC: 프로세스 간 데이터 교환을 목적으로 함
-  - [x] 공유 메모리 - 동기화 문제
-  - [x] 메세지 패싱
-  - [ ] 메시지 패싱 종류(파이프, 네임드 파이프FIFO, 메시지 큐, 소켓)
-- [x] 동기화 문제: 프로세스 간 데이터를 동기화, 보호를 목적으로 함
-  - [x] 경쟁 상황
-  - [x] 임계 구역과 해결 조건
-  - [x] 해결책
-    - [x] 뮤텍스
-    - [x] 세마포어
-    - [x] 모니터
+- [ ] 컴퓨터가 부팅되면 무슨 일이 일어날까
+- [ ] 운영체제와 정보기술의 원리 읽는대로 틈틈히 갱신하기
 
 
 
@@ -79,4 +72,5 @@
 - [Tech Interview For Developers](https://github.com/gyoogle/tech-interview-for-developer)
 - [tech interview](https://github.com/WeareSoft/tech-interview)
 - [geeksforgeeks - operating system](https://www.geeksforgeeks.org/operating-systems/?ref=lbp)
+- 운영체제와 정보기술의 원리(반효경 저)
 

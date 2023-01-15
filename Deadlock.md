@@ -48,3 +48,19 @@ Banker's Algorithm을 사용하여 자원을 할당한 후에도 안전한지 �
 - [geeksforgeeks - Deadlock Prevention And Avoidance](https://www.geeksforgeeks.org/deadlock-prevention/?ref=lbp)
 - [geeksforgeeks - Deadlock Detection And Recovery](https://www.geeksforgeeks.org/deadlock-detection-recovery/?ref=lbp)
 - [데드락(교착상태)은 프로그램에 치명적이죠 T^T 언제 발생하고 어떻게 해결하는지 살펴봅시다~! 간단한 자바 예제도 있어요~!!](https://youtu.be/ESXCSNGFVto)
+
+
+
+## 스터디
+
+1. 데드락이 무엇인가요?
+
+   데드락은 프로세스 집합에서 각각의 프로세스가 집합 내의 다른 프로세스만이 발생시킬 수 있는 이벤트를 기다리고 있는 상황이다.
+
+   1. 데드락이 발생하는 조건에 대해서 말해보세요
+
+      데드락이 발생하는 조건은 상호배제, 점유대기, 비선점, 순환대기이다.
+
+   2. 각각 어떻게 해결할 수 있을까요?
+
+      상호 배제는 자원에 동시에 접근하는 것을 허용하여 제거한다. 점유 대기는 프로세스가 필요로 하는 모든 자원을 할당받고 실행하게 하여 제거한다. 비선점은 우선순위가 높은 프로세스가 자원을 빼앗을 수 있도록 하여 제거한다. 순환 대기는 자원의 순서를 부여하여 해당 순서대로 자원을 요청하고 할당받도록 하여 제거한다.

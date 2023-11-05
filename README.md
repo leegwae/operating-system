@@ -2,14 +2,6 @@
 
 내가 공부한 운영체제
 
-(2022/06/02~2022/07/04)
-
-(2022/09/28~2022/10/10)
-
-(2022/12/21~2022/01/08)
-
-
-
 ## TOC
 
 - [운영체제란 무엇인가](https://github.com/leegwae/operating-system/blob/main/Operating%20System%20Basics.md)
@@ -51,17 +43,11 @@
   - 요구 세그먼테이션
   - 페이지드 세그먼테이션
 
-
-
-
 ## TODO
 
 - [ ] **스터디 내용으로 갱신하기**
 - [ ] 컴퓨터가 부팅되면 무슨 일이 일어날까
 - [ ] 운영체제와 정보기술의 원리 읽는대로 틈틈히 갱신하기
-
-
-
 
 ## 참고
 
@@ -73,4 +59,3 @@
 - [tech interview](https://github.com/WeareSoft/tech-interview)
 - [geeksforgeeks - operating system](https://www.geeksforgeeks.org/operating-systems/?ref=lbp)
 - 운영체제와 정보기술의 원리(반효경 저)
-

@@ -147,7 +147,7 @@ MMU가 하는 일은 대표적으로 다음과 같다. 첫번째, 프로세스�
 
 스와핑 기법은 결국 물리 메모리 크기에 의해 많은 제약을 가진다. 물리 메모리의 크기에 제약받지 않는 방법은 없을까?
 
-[가상 메모리](https://github.com/leegwae/operating-system/blob/main/Virtual%20Memory.md) 참고
+[가상 메모리](https://github.com/leegwae/operating-system/blob/main/virtual-memory.md) 참고
 
 
 

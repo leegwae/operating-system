@@ -12,7 +12,7 @@
 
 
 
-> 프로세스 동기화는 [다음](https://github.com/leegwae/operating-system/blob/main/Process%20Synchronization.md)을 참고한다.
+> 프로세스 동기화는 [다음](https://github.com/leegwae/operating-system/blob/main/process-synchronization.md)을 참고한다.
 
 
 
